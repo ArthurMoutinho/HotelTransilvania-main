@@ -1,0 +1,274 @@
+body{
+    background-color: #e5a54a;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    
+    background-color: #e5a54a;
+    height: 100px;
+}
+
+.menu {
+    float: right;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 315px;
+    height: 85px;
+    margin-right: 60px;
+    padding-top: 10px;
+}
+
+a:hover{
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    a{
+        color: #ffff;
+        text-decoration: none;
+    
+    }
+
+
+.menu p{
+    padding-left: 20px;
+    
+    display: inline-block;
+    
+}
+
+.titulo {
+    margin: auto;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 27px;
+    padding-left: 18px;
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.linha{
+    color: white;
+    background-color: white;
+    height: 2px;
+    margin-top: 38px;
+}
+
+.divisoria{
+    background-color: white;
+    width: 100px;
+}
+
+.bloco{
+    margin-top: 70px;
+    height: 600px;
+    background-color: black;
+    width: auto;
+}
+
+.preto{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    display: inline-block;
+
+}
+
+
+
+
+
+.test{
+    background-color: white;
+    width: 100px;
+}
+
+.preto p {
+    color: white;
+    padding: 200px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.texto{
+    float: right;
+    width: 56%;
+    height: 400px;
+    display: inline-block;
+    color: black;
+    margin-top: 100px;
+    font-size: 100px;
+
+
+}
+
+
+
+.texto p{
+    text-align: inherit;
+    margin: 2%;
+    font-size: 50px
+}
+
+
+
+.botaoinf {
+        width: 264px;
+        height: 64px;
+        background-color: black;
+        color: white;
+        padding-left: 1%;
+        float: right;
+        margin-top: 112px;
+        margin-right: 45px;
+     }
+
+
+
+.botaoinf p{
+    font-size: 35px;
+}
+
+
+
+.titulo:hover{
+    color: #000000;
+}
+
+.parent{
+    background-color: #e5a54a;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.formula{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+}
+
+
+/* a partir daqui será feito o slide show */
+.content {
+    height: 621px;
+    width: 1158px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fdfdfd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bar:hover{
+    background-color: white
+}
+
+
+
+input{
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 607%;
+    height: 103%;
+}
+
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~.s1{
+    margin-left: 0;
+}
+#slide2:checked ~.s1{
+    margin-left: -20%;
+}
+#slide3:checked ~.s1{
+    margin-left: -40%;
+}
+#slide4:checked ~.s1{
+    margin-left: -60%;
+}
+#slide5:checked ~.s1{
+    margin-left: -80%;
+}
+
+.container2 {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+   
+}
+
+.maisinfo {
+    background: none;
+    position: absolute;
+    border-radius: 20px;
+    top: 59%;
+    left: 1%;
+    width: 210px;
+    height: 127px;
+}
+
+.maisinfo button {
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#000000;
+    border: white;
+    position: absolute;
+    border-radius: 20px;
+    top: 94%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+}

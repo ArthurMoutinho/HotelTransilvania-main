@@ -1,0 +1,364 @@
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+.header{
+    
+    background-color: #e5a54a;
+    height: 100px;
+}
+.titulo{
+    margin: auto;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 27px;
+    padding-left: 18px;
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.titulo:hover{
+    color: #000000;
+}
+
+.menu{
+   
+    float: right;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 315px;
+    height: 85px;
+    margin-right: 60px;
+    padding-top: 10px;
+}
+.menu p{
+    padding-left: 20px;
+    
+    display: inline-block;
+    
+}
+
+
+.sobre{
+    padding-right: 250px;
+    padding-left: 250px;
+    height: 500px;
+    background-color: #e5a54a;
+}
+
+.sobreLogin{
+    padding-right: 250px;
+    padding-left: 250px;
+    height: 2000px;
+    background-color: #e5a54a;
+}
+.sobreCada{
+    padding-right: 250px;
+    padding-left: 250px;
+    height: 1200px;
+    background-color: #e5a54a;
+}
+
+.sobreQua{
+    padding-right: 250px;
+    padding-left: 250px;
+    height: 1200px;
+    background-color: #e5a54a;
+}
+
+
+.sobreC{
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    
+}
+
+.tsobre{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.img{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+    float: right;
+    text-align: center;
+    border-radius: 70%;
+    
+}
+
+.tsobre p{
+    display: inline-block;
+}
+
+.textosobre{
+    font-size: 21px;
+}
+
+.tHotel{
+    color: #ffffff;
+}
+
+.quartos{
+    
+    margin-top: 30px;
+    padding-left: 250px;
+    padding-top: 30px;
+    height: 400px;
+    width: 1500px;
+    padding-right: 250px;
+
+}
+
+.qInd{
+    background-color: #e5a54a;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;    
+    
+}
+.qInd p, .qDInd p, .qDuplo p{
+    padding-left: 50px;
+    display: inline-block;
+    font-size: 23px;
+    
+}
+
+.qDInd p{
+    padding-top: 17px;
+}
+
+.imgqInd{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+    border-radius: 70%;
+}
+.imgqDInd, .imgqDuplo{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+    border-radius: 70%;
+}
+
+.qDInd, .qDuplo{
+    background-color: #e5a54a;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;    
+}
+
+.formula{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:25%;
+    font-size: 25px;
+    margin-left: 50%;
+    padding-top: 50px;
+    padding-left: 90px;
+    width: 600px;
+    height: 450px;
+    color: rgba(131, 131, 131, 0.938);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.formula input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 30px;
+    border: 0px;
+    background-color: rgba(119, 119, 119, 0.11);
+    border-radius: 20px;
+}
+
+.formula .bot{
+    margin-left: 35%;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #e5a54a;
+    color: #ffff;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.formula .bot:hover{
+    width: 80px;
+    height: 80px;
+    transition: .3s;
+    
+}
+
+.infoLogin{
+    display: inline-block;
+    background-color:rgb(235, 235, 235);
+    margin-left: 20%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+
+
+.infoLogin a{
+    text-decoration: none;
+    color: rgba(131, 131, 131, 0.938);
+}
+
+.formulaCada{
+    
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 90px;
+    width: 900px;
+    height: 850px;
+    color: rgba(131, 131, 131, 0.938);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+.formulaCada input{
+    
+    font-size: 15px;
+    margin-left: 18%;
+    margin-top: 50px;
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+    border: 0px;
+    background-color: rgba(119, 119, 119, 0.11);
+    border-radius: 20px;
+}
+
+.formulaCada .bot{
+    
+    margin-left: 19%;
+    margin-right: 20%;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #e5a54a;
+    color: #ffff;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.formulaCada .bot:hover{
+    width: 80px;
+    height: 80px;
+    transition: .3s;
+}
+.formulaCada label{
+    margin-left: 38%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.infoCadastro{
+    display: inline-block;
+    background-color:rgb(235, 235, 235);
+    margin-left: 4%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.infoCadastro:hover{
+    width: 230px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.infoCadastro a{
+    text-decoration: none;
+    color: rgba(131, 131, 131, 0.938);
+}
+
+
+.InfQuar{
+
+    display: inline-block;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.ImagemQ{
+    display: inline-block;
+
+    float: right;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+.parent{
+    background-color: #e5a54a;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.formula{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    
+}
+
+body, html{
+    height: 100%;
+  }
